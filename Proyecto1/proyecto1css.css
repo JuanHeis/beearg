@@ -9,15 +9,25 @@ h1{
     text-align: center;
     font-size: 64px;
     background-color: orange;
+    border-radius: 30px;
+}
+header p{
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(179, 134, 49, 0.678);
+    border-radius: 20px;
 }
 #catPaw{
-    color: violet;
+    color: #803ca1;
 }
 #lukas{
-    color: blue;
+    color: #68a3e5;
 }
 #shalobu{
-    color: orange;
+    color: rgba(237, 163, 56);
+}
+#grimm{
+    color: #109856;
 }
 summary{
     font-weight: bold;
@@ -27,15 +37,70 @@ summary{
     margin: 20px;
 }
 .hero{
-    height: 400px;
-    background-image: url('../imagenes-proyecto1/logo-csgo.jpg');
+    height: 200px;
+    /* background-image: url('../imagenes-proyecto1/logo-csgo.jpg'); */
     margin: 0px 0px;
+    background-size: 5rem;
+    background: linear-gradient(to top, orange, transparent ), url('../imagenes-proyecto1/logo-csgo.jpg');
 }
 html{
     margin: 0px;
-    background-image: url(/imagenes-proyecto1/abejas.jpg);
+    /* background-image: url(/imagenes-proyecto1/abejas.jpg); */
+    background-size: 10rem;
 }
 body{
     margin: 0;
-    background-image: url(/imagenes-proyecto1/abejas.jpg);
+    /* background-image: url(/imagenes-proyecto1/abejas.jpg); */
+    background-size: 10rem ;
+    font-size: 2rem;
+}
+li:hover{
+    background-color: cadetblue;
+    /* transition-duration: 0.2s;
+    transition-timing-function: ease; */
+    /* transition-property: unset; */;
+    border: 1px solid black;
+    /* margin: 0px 0px;
+    padding: 7px 7px; */
+}
+li{
+    display: inline-block;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    width: 30%;
+    height: 224px;
+    vertical-align: top;
+}
+li a:hover{
+    /* font-size: rem; */
+    /* color: ; */
+    font-weight: bold;
+}
+li p{
+    /* display: block; */
+    /* width: 30%; */
+    /* height: 50px; */
+}
+ul li{
+    height: auto;
+    width: 24%;
+    text-align: center;
+}
+summary{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    background-color: rgba(189, 149, 75, 0.808);
+    border-radius: 20px;
+}
+li{
+    text-align: center;
+}
+summary:focus{
+    outline-width: 0;
+    /* text-decoration-thickness: none; */
+}
+summary::-webkit-details-marker{
+    color: transparent;
 }
