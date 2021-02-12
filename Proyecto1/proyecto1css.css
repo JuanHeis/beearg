@@ -1,46 +1,75 @@
+
 :root{
     font-size: 62.5%;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a {
     color: black;
     text-decoration: none;
 }
 h1{
+    margin: 0px;
     text-align: center;
-    font-size: 64px;
-    background-color: orange;
+    font-size: 20rem;
+    /* background-color: orange; */
     border-radius: 30px;
+    /* padding: auto; */
+    background-color: rgba(237, 163, 56, .3);
+}
+main{
+    /* position: relative; */
 }
 header p{
     text-align: center;
     font-size: 3rem;
-    background-color: rgba(179, 134, 49, 0.678);
+    /* background-color: rgba(179, 134, 49, 0.678); */
     border-radius: 20px;
 }
 #catPaw{
     color: #803ca1;
+    border-left:  2px solid white;
+    padding-left: 10px;
 }
 #lukas{
     color: #68a3e5;
+    border-left:  2px solid white;
+    padding-left: 10px;
 }
 #shalobu{
     color: rgba(237, 163, 56);
+    border-left:  2px solid white;
+    padding-left: 10px;
 }
 #grimm{
     color: #109856;
+    border-left:  2px solid white;
+    padding-left: 10px;
 }
 summary{
     font-weight: bold;
 }
 .wrapper{
+    width: 900px;
+    margin:auto;
+}
+.playersHeader{
     /* max-width: 800px; */
-    margin: 20px;
+    /* width: 20%; */
+    /* margin: auto; */
+    position: relative;
+    /* width: 300px; */
+    top: 0;
+    /* left: -20px */
+    z-index: 9;
 }
 .hero{
-    height: 200px;
+    /* position: relative; */
+    /* height: 200px; */
     /* background-image: url('../imagenes-proyecto1/logo-csgo.jpg'); */
     margin: 0px 0px;
-    background-size: 5rem;
+    /* background-size: 5rem; */
     background: linear-gradient(to top, orange, transparent ), url('../imagenes-proyecto1/logo-csgo.jpg');
 }
 html{
@@ -49,27 +78,31 @@ html{
     background-size: 10rem;
 }
 body{
-    margin: 0;
+    /* margin: 0; */
     /* background-image: url(/imagenes-proyecto1/abejas.jpg); */
+    position: relative;
     background-size: 10rem ;
     font-size: 2rem;
 }
 li:hover{
-    background-color: cadetblue;
+    /* background-color: white; */
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    /* transition-property: unset; */;
+    border: 1px solid whitesmoke;
+    * margin: 0px 0px;
+    padding: 7px 7px;
+}
+ol li{
+    display: block;
     /* transition-duration: 0.2s;
     transition-timing-function: ease; */
-    /* transition-property: unset; */;
-    border: 1px solid black;
-    /* margin: 0px 0px;
-    padding: 7px 7px; */
-}
-li{
-    display: inline-block;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
-    width: 30%;
-    height: 224px;
+    /* width: 30%;
+    height: 224px; */
     vertical-align: top;
+}
+.playerHeader header nav ul li {
+    display: block;
 }
 li a:hover{
     /* font-size: rem; */
@@ -82,25 +115,50 @@ li p{
     /* height: 50px; */
 }
 ul li{
-    height: auto;
-    width: 24%;
+    /* display: block; */
+    border: white;
+    /* height: 20px; */
+    /* width: 24%; */
     text-align: center;
+    width: 100%;
 }
 summary{
     text-align: center;
     text-decoration: none;
     font-size: 2.5rem;
     cursor: pointer;
-    background-color: rgba(189, 149, 75, 0.808);
+    /* background-color: rgba(189, 149, 75, 0.808); */
     border-radius: 20px;
 }
 li{
     text-align: center;
+    /* justify-content: space-around; */
 }
-summary:focus{
-    outline-width: 0;
-    /* text-decoration-thickness: none; */
+summary{
+    outline:wheat;
+    text-decoration: underline;
+    /* text-decoration: wavy; */
 }
 summary::-webkit-details-marker{
     color: transparent;
+}
+header{
+    color: whitesmoke;
+    /* background-image: url(/imagenes-proyecto1/hyperbeast.png); */
+    width: 300px;
+    /* height: 600px; */
+    position: absolute;
+    left: -400px;
+    top: 50px;
+    border: 1px solid orange;
+}
+main{
+    /* width: 900px; */
+    margin: auto;;
+}
+a{
+    color: whitesmoke;
+}
+hr{
+    margin: 40px;
 }
