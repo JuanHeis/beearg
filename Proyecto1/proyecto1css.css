@@ -162,3 +162,37 @@ a{
 hr{
     margin: 40px;
 }
+.slider{
+    /* border: 1px solid red; */
+    /* inline-size: vw; */
+    /* inline-size: auto; */
+}
+.slider-conteiner{
+    /* border: 1px solid blue; */
+    block-size: 100px;
+    display: block;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    block-size: auto;
+}
+.slider-content{
+    /* border: 1px solid yellow; */
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+.bulletNav{
+    border: 1px solid orange;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-block-start: 10px;
+    margin-inline-start: 200px;
+}
+h3{
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
